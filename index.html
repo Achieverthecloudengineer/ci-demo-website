@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Simple Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -18,20 +19,37 @@
     </header>
 
     <main>
-        <section>
-            <h2>This is the Main Content</h2>
-            <p>This is a simple paragraph of text on my website. You can add more content here.</p>
-            <ul>
-                <li>List item one</li>
-                <li>List item two</li>
-                <li>List item three</li>
-            </ul>
+        <section class="hero">
+            <h2>Discover Amazing Things</h2>
+            <p>This is a simple yet stylish website showcasing some cool stuff. Explore below!</p>
+            <a href="#" class="button">Learn More</a>
         </section>
 
-        <section>
-            <h2>Another Section</h2>
-            <p>Here's some more information or another topic.</p>
-            <img src="placeholder.jpg" alt="A placeholder image" width="200">
+        <section class="content-section">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-item">
+                    <h3>Web Design</h3>
+                    <p>We create beautiful and responsive websites tailored to your needs.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Development</h3>
+                    <p>Building robust and scalable web applications with the latest technologies.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Marketing</h3>
+                    <p>Helping your business grow with effective online marketing strategies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="image-section">
+            <h2>Check Out Our Gallery</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/150" alt="Gallery Image 1">
+                <img src="https://via.placeholder.com/150" alt="Gallery Image 2">
+                <img src="https://via.placeholder.com/150" alt="Gallery Image 3">
+            </div>
         </section>
     </main>
 
